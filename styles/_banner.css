@@ -40,3 +40,18 @@
     transition: all 0.3s ease-in-out;
     text-transform: capitalize ;
 }
+
+@media screen and (max-width: 530px) {
+    #banner {
+        gap: 5rem;
+    }
+
+    #banner h1 {
+        font-size: 3rem;
+    }
+
+    #banner button {
+        width: 60%;
+        font-size: 1.2rem;
+    }
+}

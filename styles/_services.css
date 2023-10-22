@@ -29,13 +29,12 @@
 #services section .card {
     background-color: #5b0000;
     flex: 0 1 calc(30% - 10px);
-    width: 400px;
     height: 16rem;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 400px;
+    min-width: 390px;
 }
 
 #services section .card img {
