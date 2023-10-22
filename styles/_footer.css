@@ -1,0 +1,13 @@
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+footer h2 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}

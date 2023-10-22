@@ -1,0 +1,54 @@
+#contact {
+    padding: 3rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid 3px black;
+}
+
+#contact h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+
+#contact section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+}
+
+#contact section .card {
+    flex: 0 1 calc(40% - 10px);
+    width: 400px;
+    height: 30rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 390px;
+    gap: 4rem;
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    fill: var(--secondary-color);
+}
+
+#contact section .card p {
+    width: 100%;
+    text-align: start;
+}
+
+#contact section .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

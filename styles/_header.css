@@ -1,0 +1,71 @@
+header {
+    background-color: var(--primary-color);
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    border-bottom: solid 3px black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+header nav a {
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 2rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header nav {
+        gap: 1rem;
+    }
+
+    header nav a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    header {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav {
+        gap: 0.5rem;
+    }
+
+    header nav a {
+        font-size: 1rem;
+    }
+}
