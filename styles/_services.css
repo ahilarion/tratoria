@@ -1,0 +1,53 @@
+#services {
+    background-color: var(--primary-color);
+    padding: 3rem;
+    border-bottom: solid 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#services h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+}
+
+#services section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    width: 100%;
+}
+
+#services section .card {
+    background-color: #5b0000;
+    flex: 0 1 calc(30% - 10px);
+    width: 400px;
+    height: 16rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+}
+
+#services section .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#services section .card p {
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+}

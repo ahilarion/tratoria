@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import './styles/_settings.css';
+@import './styles/_header.css';
+@import './styles/_banner.css';
+@import './styles/_menu.css';
+@import './styles/_services.css';
+@import './styles/_contact.css';
+@import './styles/_footer.css';
